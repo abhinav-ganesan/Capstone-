@@ -1,0 +1,148 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+#hero{
+  width: 100%;
+  height: 100vh;
+  background-image: url("https://dwidude.com/wp-content/uploads/2016/11/Dwi-Dude-8.jpg");
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto', sans-serif;
+}
+
+.navbar{
+  height: 12%;
+  display: flex;
+  align-items: center;
+}
+
+.logo{
+  width: 130px;
+  cursor: pointer;
+  margin: 50px;
+}
+
+.menu-icon{
+  width:70px;
+  cursor: pointer;
+  margin-left: 40px;
+}
+
+nav {
+  flex: 1;
+  text-align: right;
+}
+
+nav li{
+  list-style: none;
+  display: inline-block;
+  margin-left: 60px;
+}
+
+nav li a{
+padding: 8px 25px;
+background: transparent;
+outline: none;
+border: 2px solid #fff;
+border-radius: 20px;
+color: #fff;
+font-size: 12px;
+font-weight: bold;
+cursor: pointer;
+text-decoration: none;
+}
+
+.row{
+  display: flex;
+  height: 88%;
+  align-items: center;
+}
+
+.container{
+  width: 50%;
+  height: 87%;
+
+  background: rgba(86,86,86,0.3);
+  backdrop-filter: blur(10px);
+  position: absolute;
+  left: 0;
+
+}
+
+.info{
+  width: 550px;
+  color: #fff;
+  position: absolute;
+  right: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  height: auto;
+}
+
+.info h1{
+  font-size: 60px;
+  letter-spacing: 10px;
+}
+
+.info p{
+  color: #f0eef1;
+  font-size: 11px;
+  margin: 20px 0;
+  line-height: 18px;
+}
+
+.info input{
+  width: 50%;
+  padding: 8px 10px;
+  outline: none;
+  border: 2px solid #fff;
+  border-radius: 20px;
+  background: transparent;
+  color: #fff;
+  font-size: 12px;
+}
+
+::placeholder{
+  color: #ccc;
+}
+
+.slider{
+  display: flex;
+  align-items: center;
+  position: absolute;
+  right: 30px;
+  bottom: 50px;
+}
+
+#prev #next{
+  width: 20px;
+  cursor: pointer;
+}
+
+.preview{
+  display: flex;
+  align-items: center;
+  margin: 0 60px;
+}
+
+.preview img{
+  width: 60px;
+  margin: 0 10px;
+  opacity: 0.4;
+}
+
+.preview .active{
+  display: block;
+  border: 3px solid #fff;
+  width: 100px;
+  opacity: 1;
+}

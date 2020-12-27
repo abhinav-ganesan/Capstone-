@@ -1,0 +1,157 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto', sans-serif;
+}
+
+.container{
+  width: 100%;
+  height: 100vh;
+  background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url("https://zululandobserver.co.za/wp-content/uploads/sites/56/2020/08/Different-driver-mi_08386.jpeg");
+  background-position: center;
+  background-size: cover;
+  padding-left: 8%;
+  padding-right: 8%;
+  box-sizing: border-box;
+}
+
+.navbar{
+  height: 12%;
+  display: flex;
+  align-items: center;
+}
+
+.logo{
+  width: 130px;
+  cursor: pointer;
+}
+
+.menu-icon{
+  width:70px;
+  cursor: pointer;
+  margin-left: 40px;
+}
+
+nav {
+  flex: 1;
+  text-align: right;
+}
+
+nav ul li{
+  list-style: none;
+  display: inline-block;
+  margin-left: 60px;
+}
+
+nav ul li a{
+  text-decoration: none;
+  color: #fff;
+  font-size: 13px;
+}
+
+.row{
+  display: flex;
+  height: 88%;
+  align-items: center;
+}
+
+.col{
+  flex-basis: 50%;
+
+}
+
+h1{
+  color: #fff;
+  font-size: 100px;
+}
+
+p{
+  color: #fff;
+  font-size: 11px;
+  line-height: 15px;
+}
+
+button{
+  width: 180px;
+  color:#000;
+  font-size: 12px;
+  padding: 12px 0;
+  background: #fff;
+  border: 0;
+  border-radius: 20px;
+  outline: none;
+  margin-top: 30px;
+
+}
+
+
+
+.card{
+  width: 200px;
+  height: 230px;
+  display: inline-block;
+  border-radius: 10px;
+  padding: 15px 25px;
+  box-sizing: border-box;
+  cursor: pointer;
+  margin: 10px 15px;
+  background-image: url("");
+  background-position: center;
+  background-size: cover;
+  transition: transform 0.5s;
+}
+.card1{
+  background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQaun1lFLsRlrrTa0RwP1SmkwUsJRYIyEf8tA&usqp=CAU");
+}
+
+.card2{
+  background-image: url("https://images.newindianexpress.com/uploads/user/imagelibrary/2020/2/21/w1200X800/Accusedxz.jpg");
+}
+
+.card3{
+  background-image: url("https://pbs.twimg.com/media/DGPk8ApXcAE3BvJ.jpg");
+}
+
+.card4{
+  background-image: url("https://static-14.sinclairstoryline.com/resources/media/da83ec45-be7c-4d6d-9a82-bcc78f819058-large16x9_temprockymcmurraypicandmug.PNG?1538157681109");
+}
+
+.card:hover{
+  transform: translateY(-10px);
+}
+
+h5{
+  color: #fff;
+  text-shadow: 0 0 5px #999;
+}
+
+.card p{
+    text-shadow: 0 0 15px #000;
+    font-size: 8px;
+}
+
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+}
+
+#myBtn {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 30px;
+  z-index: 99;
+  font-size: 18px;
+  border: none;
+  outline: none;
+  background-color: red;
+  color: white;
+  cursor: pointer;
+  padding: 15px;
+  border-radius: 4px;
+}
+
+#myBtn:hover {
+  background-color: #555;
+}
